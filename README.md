@@ -1,5 +1,14 @@
 # Graph Based Image Segmentation
 
+<table>
+  <tbody>
+    <tr>
+      <td><img src="https://github.com/nps6-uwf/Efficient-Graph-Based-Image-Segmentation/blob/main/testImages/ghostshell.png?raw=true"></img></td>
+      <td><img src="https://github.com/nps6-uwf/Efficient-Graph-Based-Image-Segmentation/blob/main/results/seg_ghostshell.png?raw=true"></img></td>
+    </tr>
+  </tbody>
+</table>
+
 Pure python implementation of <i>Implementation of Efficient Graph Based Image Segmentation</i>, by
 Pedro F. Felzenszwalb.  The full paper from which the code was created can be found here: <a href="http://cs.brown.edu/people/pfelzens/papers/seg-ijcv.pdf">Paper</a>.
 
