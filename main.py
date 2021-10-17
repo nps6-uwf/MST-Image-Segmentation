@@ -37,9 +37,7 @@ ofile = argv[5] if len(argv) > 5 else "segmented.png"
 # Option 2) Use PIL
 img = Image.open(ifile)
 width, height = img.size
-print(img)
 M = np.asarray(img)
-print(M)
 print(M.shape)
 
 newImg, numCcs = segment(M, sigma, k, minSize)
