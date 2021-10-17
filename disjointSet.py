@@ -27,6 +27,8 @@ class Universe:
         return y
 
     def union(self, x: int, y: int):
+        '''The union operation in the unionfind data structure.
+        '''
         if self.elts[x].rank > self.elts[y].rank:
             self.elts[y].p = x
             self.elts[x].size += self.elts[y].size
