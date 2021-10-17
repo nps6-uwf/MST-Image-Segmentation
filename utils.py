@@ -1,6 +1,6 @@
 def color_text(text, color):
     '''Supported colors:
-    red, blue, green, yellow
+    magenta, blue, green, yellow
     '''
     colors={
         "magenta":"\u001b[35m",
