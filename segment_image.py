@@ -1,6 +1,5 @@
 
 from graph import Edge
-from unionFind import UnionFind
 from disjointSet import Universe
 from typing import Tuple
 import numpy as np
