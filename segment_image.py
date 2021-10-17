@@ -71,7 +71,6 @@ def segment(image: np.array, sigma: float, k: float, minSize: int) -> Tuple[np.a
     # (3) sort edges
     # print(len(edges))
     # print(edges[-3])
-    # What are these wierd nan values? improper diff function.
     # print([e.w for e in edges if e.w != 0])
     edges.sort()
 
@@ -93,7 +92,6 @@ def segment(image: np.array, sigma: float, k: float, minSize: int) -> Tuple[np.a
 
     colordic = {}
     comps = set([])
-    # issue: componenets do not match cpp components.  I get 1 component.  cpp gets 40.
     for y in range(h):
         for x in range(w):
             comp = U.find(y * w + x)
