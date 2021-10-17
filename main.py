@@ -28,13 +28,7 @@ ifile = argv[1]
 ofile = argv[5] if len(argv) > 5 else "segmented.png"
 
 # (2) load ifile as an image
-# Option 1) Using Keras preproccessing
-# Issue, I need a target_size
-#from keras_preprocessing import image
-#train_image = image.load_img(path, target_size = (height, width)) 
-#train_image = image.img_to_array(train_image)
-
-# Option 2) Use PIL
+# Use PIL
 img = Image.open(ifile)
 width, height = img.size
 M = np.asarray(img)
