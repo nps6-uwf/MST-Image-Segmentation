@@ -10,7 +10,7 @@
     <tr>
       <td><img src="https://github.com/nps6-uwf/Efficient-Graph-Based-Image-Segmentation/blob/main/testImages/ghostshell.png?raw=true"></img></td>
       <td><img src="https://github.com/nps6-uwf/Efficient-Graph-Based-Image-Segmentation/blob/main/results/seg_ghostshell.png?raw=true"></img></td>
-      <td><img src="https://github.com/nps6-uwf/Efficient-Graph-Based-Image-Segmentation/blob/main/results/seg_ghostshell.png?raw=true"></img></td>
+      <td><img src="https://github.com/nps6-uwf/Efficient-Graph-Based-Image-Segmentation/blob/main/results/seg_ghostshell_manhattan.png?raw=true"></img></td>
     </tr>
   </tbody>
 </table>
