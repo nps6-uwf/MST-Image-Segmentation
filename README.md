@@ -15,8 +15,7 @@
   </tbody>
 </table>
 
-Pure python implementation of <i>Implementation of Efficient Graph Based Image Segmentation</i>, by
-Pedro F. Felzenszwalb.  The full paper from which the code was created can be found here: <a href="http://cs.brown.edu/people/pfelzens/papers/seg-ijcv.pdf">Paper</a>.  Pseudocode explaining how one can use the disjoint set data structure to improve Kruskal's algorithm for computing the MST, <a href="http://www.csl.mtu.edu/cs4321/www/Lectures/Lecture%2019%20-%20Kruskal%20Algorithm%20and%20Dis-joint%20Sets.htm">Kruskal's Algorithm and Disjoint Sets<a>
+Pseudocode explaining how one can use the disjoint set data structure to improve Kruskal's algorithm for computing the MST, <a href="http://www.csl.mtu.edu/cs4321/www/Lectures/Lecture%2019%20-%20Kruskal%20Algorithm%20and%20Dis-joint%20Sets.htm">Kruskal's Algorithm and Disjoint Sets<a>
 
 ## Dependencies
 
