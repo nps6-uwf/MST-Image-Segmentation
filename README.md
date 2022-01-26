@@ -1,4 +1,4 @@
-# Graph Based Image Segmentation
+# Minimum Spanning Tree Image Segmentation
 
 <table>
   <tbody>
