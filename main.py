@@ -1,8 +1,3 @@
-
-# All code based on: Implementation of Efficient Graph Based Image Segmentation
-# Paper url: http://cs.brown.edu/people/pfelzens/papers/seg-ijcv.pdf
-# Paper Author:  Pedro F. Felzenszwalb
-#   
 # Implementation: Nick Sebasco
 # Date: 10/20/2021
 #
@@ -21,7 +16,6 @@ from PIL import Image
 from time import time
 
 # (1) arguments temporarily defined as variables:
-# c++ arguments: ./segment 0.7 1000 80 'testImages/twoSquares.ppm' twoSquares
 if len(argv) < 2:
     print("Error: Missing arguments.") 
     print("Please append the following arguments:",color_text('input file path','magenta'))
